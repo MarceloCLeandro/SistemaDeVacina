@@ -4,11 +4,20 @@
  * and open the template in the editor.
  */
 package Usuarios;
-
 /**
  *
  * @author Guilherme
  */
 public class Enfermeira {
+    private int coren;
+
+    ///////////////////////////////////
+    
+    
+    public Enfermeira() {
+    }
+    public Enfermeira(int coren) {
+        this.coren = coren;
+    }
     
 }

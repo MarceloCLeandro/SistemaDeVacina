@@ -4,11 +4,13 @@
  * and open the template in the editor.
  */
 package Autenticacao;
-
 /**
  *
  * @author Guilherme
  */
 public class Login {
     
+    
+    
+    // fazer login: void
 }

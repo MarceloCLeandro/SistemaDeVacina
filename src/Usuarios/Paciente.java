@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 package Usuarios;
-
 /**
  *
  * @author Guilherme
@@ -12,6 +11,13 @@ package Usuarios;
 public class Paciente {
     private String cartaoDeAgendamento;
     private int cartaoSus;
+
+    public Paciente() {
+    }
+    public Paciente(String cartaoDeAgendamento, int cartaoSus) {
+        this.cartaoDeAgendamento = cartaoDeAgendamento;
+        this.cartaoSus = cartaoSus;
+    }
     
     
 }
