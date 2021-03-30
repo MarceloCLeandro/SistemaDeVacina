@@ -30,9 +30,9 @@ public class Consulta {
         
         //Endereco
         endereco.setLogradouro("Rua");
-        endereco.setNome("Rua quebrada");
+        endereco.setNome("XTPO");
         endereco.setNumero(10);
-        endereco.setBairro("Jardim maracá");
+        endereco.setBairro("Jardim");
         endereco.setCidade("São Paulo");
         endereco.setEstado("SP");
         
