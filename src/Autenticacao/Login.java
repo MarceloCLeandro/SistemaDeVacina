@@ -8,9 +8,9 @@ package Autenticacao;
  *
  * @author Guilherme
  */
-public class Login {
-    
-    
-    
-    // fazer login: void
-}
+
+    public interface Login {
+        public void fazerLogin(String login, String senha);
+                
+    }
+

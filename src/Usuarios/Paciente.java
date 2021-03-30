@@ -4,6 +4,9 @@
  * and open the template in the editor.
  */
 package Usuarios;
+
+import Agendamento.Vacina;
+
 /**
  *
  * @author Guilherme
@@ -14,9 +17,9 @@ public class Paciente {
 
     public Paciente() {
     }
-    public Paciente(String cartaoDeAgendamento, int cartaoSus) {
-        this.cartaoDeAgendamento = cartaoDeAgendamento;
-        this.cartaoSus = cartaoSus;
+
+    public void agendaConsulta(Vacina[] v){
+        
     }
     
     
