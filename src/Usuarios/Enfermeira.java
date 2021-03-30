@@ -4,20 +4,22 @@
  * and open the template in the editor.
  */
 package Usuarios;
+
+import Agendamento.Vacina;
+
 /**
  *
  * @author Guilherme
  */
-public class Enfermeira {
+public class Enfermeira extends Pessoa{
     private int coren;
 
-    ///////////////////////////////////
-    
-    
     public Enfermeira() {
     }
-    public Enfermeira(int coren) {
-        this.coren = coren;
-    }
+
+    public void aplicarvacinas(Vacina[] v){
     
+
+    }
+        
 }
