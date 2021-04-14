@@ -14,12 +14,17 @@ import Agendamento.Vacina;
 public class Enfermeira extends Pessoa{
     private int coren;
 
-    public Enfermeira() {
+    public Enfermeira(){
     }
 
-    public void aplicarvacinas(Vacina[] v){
+    public int getCoren() {
+        return coren;
+    }
+
+    public void setCoren(int coren) {
+        this.coren = coren;
+    }
     
 
-    }
         
 }

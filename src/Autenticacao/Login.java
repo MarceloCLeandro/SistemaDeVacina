@@ -10,7 +10,8 @@ package Autenticacao;
  */
 
     public interface Login {
+        
         public void fazerLogin(String login, String senha);
-                
+        
     }
 

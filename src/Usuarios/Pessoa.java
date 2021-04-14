@@ -12,8 +12,8 @@ import Agendamento.Endereco;
  * @author Guilherme
  */
 public abstract class Pessoa {
-    private String nome;
-    private int idade;
+    String nome;
+    int idade;
     private int cpf;
     private String email;
     private String login;
@@ -23,9 +23,21 @@ public abstract class Pessoa {
     
     //metodos construtor sem parametros 
     public Pessoa() {
-    }
     
+    }
+
+    public Pessoa(String nome, int idade, int cpf, String email, String login, String senha, Endereco endereco) {
+        this.nome = nome;
+        this.idade = idade;
+        this.cpf = cpf;
+        this.email = email;
+        this.login = login;
+        this.senha = senha;
+        this.endereco = endereco;
+    }
+
     //metodo get e set - metodos de acesso
+
     public String getNome() {
         return nome;
     }
@@ -73,12 +85,12 @@ public abstract class Pessoa {
     public void setSenha(String senha) {
         this.senha = senha;
     }
-       
-    public Endereco GetEndereco(){
+
+    public Endereco getEndereco() {
         return endereco;
     }
-    
-    public void setEndereco(Endereco endereco){
+
+    public void setEndereco(Endereco endereco) {
         this.endereco = endereco;
     }
     
