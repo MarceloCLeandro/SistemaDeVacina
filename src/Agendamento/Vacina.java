@@ -50,5 +50,4 @@ public class Vacina {
     public void setDataValidade(Data dataValidade) {
         this.dataValidade = dataValidade;
     }
-    
 }

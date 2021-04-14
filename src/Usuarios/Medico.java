@@ -17,6 +17,7 @@ public class Medico extends Pessoa {
     private boolean residente;//yes or no
 
     public Medico() {
+        
     }
 
     public int getCRM() {
@@ -43,18 +44,18 @@ public class Medico extends Pessoa {
         this.residente = residente;
     }
 
+    public String prescreverVacina(Vacina[] v){
+       String vacinaa;
+       
+       return null;
+    }
+    
     @Override
     public String toString() {
-        return "Medico{" + "CRM=" + CRM + ", especialidade=" + especialidade + ", residente=" + residente + '}';
+        return  nome + ", " + CRM + ", " + especialidade;
     }
+    
     
     
 
-    public String prescreverVacina(Vacina[] v){
-        
-        
-        return null;
-    }
-    
-    
 }
